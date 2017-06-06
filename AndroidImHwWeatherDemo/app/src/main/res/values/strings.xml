@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">好天气</string>
+    <string name="activity_main_place">成都</string>
+    <string name="activity_main_errorInfo">错误信息提示区</string>
+    <string name="activity_main_week">周三</string>
+    <string name="activity_main_nowWeather">雨夹雪|空气优</string>
+    <string name="activity_main_futureTemp">8º/18º</string>
+    <string name="activity_main_futureWeek">周五</string>
+    <string name="activity_set_title">设置</string>
+    <string name="activity_set_tempUnit">温度单位</string>
+    <string name="activity_set_temp">℃</string>
+    <string name="activity_set_openNotify">开启通知</string>
+    <string name="activity_set_openUpdate">自动更新</string>
+    <string name="activity_set_updateSpace">更新间隔</string>
+    <string name="activity_set_updateTime">24小时</string>
+    <string name="activity_menu_selectCity">请输入你想查找天气的城市</string>
+    <string name="activity_menu_confirmBtn">确认</string>
+    <string name="activity_menu_cancelBtn">取消</string>
+</resources>

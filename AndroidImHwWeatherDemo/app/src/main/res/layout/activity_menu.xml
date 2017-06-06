@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:background="@drawable/menu_background">
+
+    <EditText
+        android:id="@+id/activity_menu_cityWeather"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:maxLines="1"
+        android:maxLength="10"
+        android:hint="@string/activity_menu_selectCity"
+        android:textSize="18sp"
+        android:background="@drawable/edittext"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="40dp">
+
+        <Button
+            android:id="@+id/activity_menu_confirmBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/activity_menu_confirmBtn"
+            android:textSize="20dp"
+            android:background="@drawable/button"/>
+
+        <Button
+            android:id="@+id/activity_menu_cancelBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:text="@string/activity_menu_cancelBtn"
+            android:textSize="20dp"
+            android:background="@drawable/button"/>
+
+    </LinearLayout>
+
+</LinearLayout>
